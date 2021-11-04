@@ -24,6 +24,6 @@ weekday[6] = "Saturday";
 let day = weekday[date.getDay()]
 currentDay.textContent = day
 
-let fact = facts [Math.floor(Math.random()*facts.length)]
+let fact = facts [Math.floor(Math.random()*facts.length-1)]
 funFact.textContent = fact
 
